@@ -4,7 +4,7 @@
 - **File:** `0-simple_web_stack` 
 
 ![alt text](Task0.drawio.png)
-- **Description** 
+## **Description** 
 ### Specifics about this infrastructure:
 - A server is hardware or software that's runs an OS that provides a some kind of service or functionality to other devices or applications, usually located at a data center.
 A ecorain name allons users to access websies without having to memorize the servers physical I address, In the case of this example. "w"is an
@@ -22,7 +22,7 @@ SPOF, should the server fail, the entire system will go down.
 - **File:** `1-distributed_web_infrastructure`
 
 ![alt text](Task1.drawio.png)
-- **Description** 
+## **Description** 
 ### Additions made from the Simple Design:
 • Two additional servers have been added to prevent reliance on one server, bringing the total to 3.
 • A load balancer has also been added to manage the traffic coming into the site. The load balancer is configured with the least connections algorithm to direct the traffic when means it first checks all the servers to see which one has the least connections and then sends the request there.
@@ -38,7 +38,7 @@ SPOF, should the server fail, the entire system will go down.
 - **File:** `2-secured_and_monitored_web_infrastructure`
 
 ![alt text](Task2.drawio.png)
-- **Description** 
+## **Description** 
 ### Additions made from the Distributed Design:
 • Traffic is now served through HTTPS to encrypt data between the client and server
 be granted access to the site.
